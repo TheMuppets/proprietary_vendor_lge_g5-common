@@ -325,7 +325,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_t4ka3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_t4ka3.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_t4ka3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_t4ka3_eeprom.so \
