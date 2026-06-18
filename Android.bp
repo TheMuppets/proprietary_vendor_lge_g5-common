@@ -233,7 +233,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/camera.msm8996.so"],
-			shared_libs: ["liblog", "libhardware", "libutils", "libcutils", "libdl", "libsync", "libmmcamera_interface", "libmmjpeg_interface", "libui", "libcamera_metadata", "libqdMetaData", "libqservice", "libbinder", "libts_face_beautify_hal", "libts_detected_face_hal", "libHDR", "libmorpho_image_stab31", "libmorpho_superzoom", "libarcsoft_beauty_shot", "libandroid", "libgui", "libEGL", "libGLESv2", "libfilm_emulation", "libbwfocuspeaking", "libc++", "libc", "libm", ],
+			shared_libs: ["libshim_camera", "liblog", "libhardware", "libutils", "libcutils", "libdl", "libsync", "libmmcamera_interface", "libmmjpeg_interface", "libui", "libcamera_metadata", "libqdMetaData", "libqservice", "libbinder", "libts_face_beautify_hal", "libts_detected_face_hal", "libHDR", "libmorpho_image_stab31", "libmorpho_superzoom", "libarcsoft_beauty_shot", "libandroid", "libgui", "libEGL", "libGLESv2", "libfilm_emulation", "libbwfocuspeaking", "libc++", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
@@ -557,7 +557,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbwfocuspeaking.so"],
-			shared_libs: ["libc++", "libdl", "libc", "libm", "liblog", ],
+			shared_libs: ["libshim_bwfocus", "libc++", "libdl", "libc", "libm", "liblog", ],
 		},
 	},
 	compile_multilib: "32",
@@ -4881,7 +4881,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_ppeiscore.so"],
-			shared_libs: ["libdl", "libcutils", "liblog", "libgui", "libEGL", "libGLESv2", "libhardware", "libqdMetaData", "libutils", "libui", "libmmcamera_dbg", "libmmcamera_imglib", "libc++", "libc", "libm", ],
+			shared_libs: ["libshim_camera", "libdl", "libcutils", "liblog", "libgui", "libEGL", "libGLESv2", "libhardware", "libqdMetaData", "libutils", "libui", "libmmcamera_dbg", "libmmcamera_imglib", "libc++", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "32",
